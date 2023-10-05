@@ -84,7 +84,7 @@ def main():
 
     #button actions
     if st.button("🦹🏼 Get Espionage", key="centered"):
-        st.write(lead_prompt)
+        st.write(lead_prompt, company_prompt)
             
         
 if __name__ == "__main__":
